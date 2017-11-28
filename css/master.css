@@ -4,3 +4,45 @@
   font-family: "Helvetica", sans-serif;
   font-weight: 200;
 }
+
+body {
+  background: #ffb6c1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  color: #019401;
+}
+
+.welcome {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+  border: 2px solid #019401;
+  padding: 2px 30px;
+  background-color: rgba(1, 148, 1, .05);
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888;
+}
+
+.key-code {
+  font-size: 10rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  text-shadow: 3px 3px 10px #888;
+}
+
+.key {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  border: 2px solid #019401;
+  padding: 2px 30px;
+  margin-top: 25px;
+  background-color: rgba(1, 148, 1, .05);
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888;
+}
