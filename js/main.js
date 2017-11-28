@@ -7,10 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
   key.style.display = "none";
 
   function pressedKey(event) {
-    console.log(`${event.key} `, event.keyCode);
+
+    console.log(event);
     document.querySelector(".welcome").style.display = "none";
     key.style.display = "initial";
-    keyCode.textContent = event.keyCode;
+    keyCode.textContent = event.which;
     key.textContent = event.key;
   }
 
